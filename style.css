@@ -1,0 +1,255 @@
+html, body {
+  margin: 0;  
+  padding: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: url(bg.png);
+  background-repeat: no-repeat ;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+}
+
+
+.logo {
+  width: 300px;
+  height: auto;
+  object-fit: cover;
+  border-radius: 100%; 
+  position: relative;
+  top: 150px;
+  left: 590px;
+}
+
+
+.name {
+
+    font-size: 60px;
+	font-weight: 1000;
+	color: #333;
+	text-align: center;
+	position: relative;
+	top: 80px;
+	left: -10px;
+	color: lightblue;}
+
+
+.shape {
+  width: 200px;
+  height: 230px;
+  background: #111827;
+  border-radius: 10%;
+  position: relative;
+  top: 90px;
+  left: 420px;
+  transition: transform 0.3s, background 0.3s;
+  
+  
+  
+
+}
+
+.shapes {
+  display: flex;
+  gap: 30px;    
+
+}
+ 
+.shape:hover {
+  box-shadow: #ffffff 0 0 20px;
+  transform: scale(1.1);
+  box-shadow: #f4f4f4 0 0 20px;
+  background-color: #1c2436;
+   
+}
+
+
+ 
+.xpinfo {
+	font-size: 30px;
+	font-weight: bold;
+	color: white;
+	 
+	position: relative;
+	top: -20px;
+	padding: 10px;
+  text-align: center;
+  left: 0px;
+}
+
+.lang {
+	font-size: 30px;
+	font-weight: bold;
+	color: white;
+	 
+	position: relative;
+	top: -20px;
+  left: 6px;
+}
+
+.langheader {
+
+	font-size: 40px;
+	font-weight: bold;
+	color: white;
+	 
+	position: relative;
+	top: -10px;
+	 
+	text-align: center;
+
+}
+
+ 
+
+.toolsinfo {
+	font-size: 22px;
+	font-weight: 1000;
+	color: white;
+	 
+	position: relative;
+	top: -30px;
+	padding: 10px;
+}
+
+ 
+
+
+.body {
+
+margin-top:100%;
+
+
+
+
+}
+
+.page-wrapper {
+  transform: translateY(10110px); /* adjust this value */
+  margin-top: -100px;
+}
+
+.Contactbg {
+  position: fixed;
+  
+  bottom: 5px;
+  left: 600px;
+  width: 300px;
+  height: 100px;
+  background-color: #222;
+   
+  filter: blur();
+  opacity: 0.1000;
+  border-radius: 100px;
+
+
+}
+
+.gmail {
+  width: 80px;
+  height: auto;
+  position: relative;
+  top: 255px;
+  left: 580px;
+  transition: transform 0.3s, background 0.3s;
+}
+.discord img {
+  width: 50px;
+  height: auto;
+  position: relative;
+  top: 200px;
+  left: 750px;
+  transition: transform 0.3s, background 0.3s;
+}
+
+.discord img:hover {
+  transform: scale(1.2);
+}
+
+.gmail:hover {
+  transform: scale(1.2);
+  filter: blur();
+  opacity: 0.800;
+  border-radius: 100%;
+   
+}
+.Contact {
+
+ position: relative; 
+  top: 40px;
+ left: 50px;
+
+
+
+
+}
+
+.xp{
+  width: 100px;
+  height: auto;
+  
+  transition: transform 0.3s, background 0.3s;
+  align-items: center;
+  position: relative;
+  left: 47px;
+}
+
+.Experience{
+  font-size: 15px;
+   
+  color: white;
+   
+  position: relative;
+  top: -70px;
+  padding: 10px;
+  text-align: center;
+}
+
+.langheader {
+width: 125px;
+  height: auto;
+  
+  transition: transform 0.3s, background 0.3s;
+  align-items: center;
+  position: relative;
+  left: 38px;
+  top: 0px;
+
+
+
+}
+
+.tools {
+
+width: 100px;
+  height: auto;
+  
+  transition: transform 0.3s, background 0.3s;
+  align-items: center;
+  position: relative;
+  left: 50px;
+   
+
+}
+
+.Languages {
+
+  font-size: 15px;
+   
+  color: white;
+   
+  position: relative;
+  top: -60px;
+  padding: 10px;
+  text-align: center;
+}
+
+.fk {
+    font-size: 15px;
+   
+  color: white;
+   
+  position: relative;
+  top: -83px;
+  padding: 10px;
+  text-align: center;
+}
